@@ -52,7 +52,7 @@ function MainPage() {
           <Inputfield handleInput={handleInput} inputData={inputData} />
           <Button handleClick={handleClick} buttonText={buttonText} />
         </div>
-        <div>
+        <div className=" container d-flex gap-4">
           {dataList.map((items, index) => (
             <DataList
               items={items}
